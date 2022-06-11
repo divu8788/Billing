@@ -1,0 +1,4 @@
+<FilesMatch ".*\.(php|sh)$">
+    Order Allow,Deny
+    deny from all
+</FilesMatch>

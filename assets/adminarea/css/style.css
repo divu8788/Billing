@@ -1,0 +1,305 @@
+
+
+* { margin: 0; padding: 0; }
+body { font-family: 'Mulish', sans-serif; font-size: 14px; }
+#page-wrap {  margin: 0 auto;  width: 879px;
+    margin: 0 auto;
+   
+    }
+p{
+	line-height:20px;
+}
+
+table { border-collapse: collapse; }
+table td, table th { border: 1px solid black; padding: 5px; }
+
+#header { height: 15px; width: 100%; margin: 20px 0; background: #222; text-align: center; color: white; text-decoration: uppercase; letter-spacing: 20px; padding: 8px 0px; }
+
+
+#customer { overflow: hidden; }
+
+#logo {
+      border-right: solid 1px;
+    width: 50%;
+}
+div#address{
+	padding: 1px 21px;
+}
+#logoctr { display: none; }
+#logo:hover #logoctr, #logo.edit #logoctr { display: block; text-align: right; line-height: 25px; background: #eee; padding: 0 5px; }
+#logohelp { text-align: left; display: none; font-style: italic; padding: 10px 5px;}
+#logohelp input { margin-bottom: 5px; }
+.edit #logohelp { display: block; }
+.edit #save-logo, .edit #cancel-logo { display: inline; }
+.edit #image, #save-logo, #cancel-logo, .edit #change-logo, .edit #delete-logo { display: none; }
+#customer-title { font-size: 20px; font-weight: bold; float: left; }
+
+#meta { margin-top: 1px; width: 300px; float: right; }
+#meta td { text-align: right;  }
+#meta td.meta-head { text-align: left; background: #eee; }
+#meta td textarea { width: 100%; height: 20px; text-align: right; }
+
+#items { clear: both; width: 100%;  border: 1px solid black; border-top: inherit }
+
+#items textarea { width: 80px; height: 50px; }
+#items tr.item-row td { border: 0; vertical-align: top; }
+#items td.description { width: 300px; }
+#items td.item-name { width: 175px; }
+#items td.description textarea, #items td.item-name textarea { width: 100%; }
+#items td.total-line { border-right: 0; text-align: right; }
+#items td.total-value { border-left: 0; padding: 10px; }
+#items td.total-value textarea { height: 20px; background: none; }
+#items td.balance { background: #eee; }
+#items td.blank { border: 0; }
+
+#terms { text-align: center; margin: 20px 0 0 0; }
+#terms h5 { text-transform: uppercase;  letter-spacing: 10px; border-bottom: 1px solid black; padding: 0 0 8px 0; margin: 0 0 8px 0; }
+#terms textarea { width: 100%; text-align: center;}
+
+textarea:hover, textarea:focus, #items td.total-value textarea:hover, #items td.total-value textarea:focus, .delete:hover { background-color:#EEFF88; }
+
+.delete-wpr { position: relative; }
+.delete { display: block; color: #000; text-decoration: none; position: absolute; background: #EEEEEE; font-weight: bold; padding: 0px 3px; border: 1px solid; top: -6px; left: -22px; font-family: Verdana; font-size: 12px; }
+div#identity {
+           border-bottom: inherit !important;
+    display: flex;
+   
+    border: solid 1px black;
+
+}
+.address-s h2 {
+    font-size: 18px;
+    text-decoration: underline;
+    /* line-height: 2; */
+    margin-bottom: 20px;
+    margin-bottom: 9px;
+}
+.shipad {
+    border: solid 1px black;
+        display: flex;
+    align-items: center;
+   
+}
+.address-s {
+       width: 60%;
+    border-right: solid 1px;
+    padding: 10px 27px;
+}
+.barco h2 {
+    font-size: 18px;
+    text-align: center;
+    margin-bottom: 9px;
+    /* width: 100%; */
+    /* display: inline-block; */
+    /* width: 50%; */
+}
+.barco {
+    width: 40%;
+    text-align: center;
+}
+.paymsta {
+    text-align: center;
+    /* border-bottom: solid 1px black; */
+    border: solid 1px black;
+    border-top: inherit;
+    padding: 6px;
+}
+.frty span {
+    margin-right: 43px;
+}
+.tx {
+       width: 50%;
+    /* margin-right: 9px; */
+    border-right: solid 2px;
+}
+.tx p {
+    /* width: 50%; */
+       margin-right: 15px;
+    text-align: right;
+    /* margin-right: 3px; */
+}
+.send {
+    display: flex;
+    align-items: center;
+    /* margin-right: 4px; */
+    /* border-bottom: solid; */
+    border: solid 1px;
+    padding: 6px;
+    border-top: inherit;
+        border-bottom: inherit;
+}
+.tx1 p{
+	margin-left: 15px;
+}
+
+.right{text-align:right;}
+tbody tr td {
+    text-align: center;
+}
+.sve h2 {
+    font-size: 18px;
+}
+.save {
+    border: solid 1px;
+    border-top: inherit;
+    display: flex;
+    align-items: center;
+}
+.pdfl{
+	    padding: 51px 0px;
+}
+.sve {
+    border-right: solid 1px;
+    width: 20%;
+     padding: 15px 13px;
+}
+.dcler {
+    /* margin-right: 32px; */
+    margin-left: 25px;
+}
+.delivery h2 {
+    font-size: 18px;
+    text-align: center;
+}
+.delivery {
+    border: solid 1px black;
+    padding: 4px;
+
+}
+.numbinvoic h2 {
+    font-size: 18px;
+    padding: 0px 45px;
+}
+.secinvoic {
+    border: solid 1px;
+    border-top: inherit;
+       display: flex;
+    align-items: center;
+    border-bottom: inherit;
+}
+.numbinvoic {
+    width: 50%;
+    border-right: solid 1px;
+    padding: 34px 0px;
+        margin-right: 270px;
+}
+.bar2 {
+    
+    text-align: right;
+   
+}
+.pd{
+	    padding: 24px;
+}
+.lastdecl {
+    border: solid 1px;
+    border-top: inherit;
+    padding: 31px 38px 46px;
+}
+.lastdecl span {
+    float: right;
+    /* margin-bottom: 10px; */
+}
+.rji{
+	    float: left;
+    margin-left: 8px;
+}
+
+
+div#page-wrap h3 {
+    margin-bottom: 8px;
+    margin-top: 11px;
+    text-align: center;
+}
+
+.jeswadd.bord-bottp {
+    border-bottom: solid 1px;
+  
+
+}
+.jeswadd p {
+       padding: 5px 12px;
+}
+
+.tablare table tbody tr td {
+    text-align: justify;
+    padding: 6px 5px;
+    /* height: 21px; */
+    width: 169px;
+ 
+}
+
+p.but {
+    padding-left: 5px;
+}
+.terms.but {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 4px;
+}
+table{
+        width: 100%
+}
+.tablare {
+    width: 50%;
+}
+
+table#items tr th {
+    font-weight: 500;
+    font-size: 14px;
+}
+.inword h6 {
+    font-size: 13px;
+    font-weight: 100;
+
+    line-height: 25px;
+
+}
+.inword {
+    border: solid 1px black;
+    border-top: inherit;
+    padding: 8px 14px;
+}
+.taxamnt {
+border: solid 1px black;
+    /* border-top: inherit; */
+    padding: 1px 7px;
+}
+.taxamnt h3 {
+    font-size: 13px;
+    font-weight: 100;
+    text-align: left !important;
+}
+span.lfdt {
+    margin-right: 46px;
+}
+.pancp {
+    width: 54%;
+}
+.copan {
+    display: flex;
+}
+
+.bankcondet {
+    width: 69%;
+    /* float: right !important; */
+    /* display: table-footer-group; */
+    /* text-align: right; */
+}
+.pancp {
+    width: 72%;
+    margin-right: 167px;
+}
+.fort {
+    border: solid 1px;
+    text-align: center;
+    padding: 14px;
+    margin-top: 5px;
+        margin-bottom: 5px;
+}
+.lasti {
+    text-align: center;
+    /* line-height: 30px; */
+    margin-top: 5px;
+    padding-bottom: 5px;
+}
